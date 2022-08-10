@@ -1,4 +1,7 @@
-package headfirst.designpatterns.SimUduck;
+package StrategyPattern.solution;
+
+import StrategyPattern.solution.fly.FlyWithWings;
+import StrategyPattern.solution.quack.Quack;
 
 public class MallardDuck extends Duck {
 
@@ -9,6 +12,6 @@ public class MallardDuck extends Duck {
 
     @Override
     public void display() {
-        System.out.println("저는 물오리입니다.");
+        System.out.println("청둥오리");
     }
 }

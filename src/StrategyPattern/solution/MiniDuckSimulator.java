@@ -1,4 +1,4 @@
-package headfirst.designpatterns.SimUduck;
+package StrategyPattern.solution;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
@@ -6,9 +6,8 @@ public class MiniDuckSimulator {
         mallard.performQuack();
         mallard.performFly();
 
-        Duck model = new ModelDuck();
-        model.performFly();
-        model.setFlyBehavior(new FlyRocketPowered());
-        model.performFly();
+        Duck redhead = new RedheadDuck();
+        redhead.performQuack();
+        redhead.performFly();
     }
 }
