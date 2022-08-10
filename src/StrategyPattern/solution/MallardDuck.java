@@ -1,8 +1,5 @@
 package StrategyPattern.solution;
 
-import StrategyPattern.solution.fly.FlyWithWings;
-import StrategyPattern.solution.quack.Quack;
-
 public class MallardDuck extends Duck {
 
     public MallardDuck() {

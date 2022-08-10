@@ -1,8 +1,5 @@
 package StrategyPattern.solution;
 
-import StrategyPattern.solution.fly.FlyNoWay;
-import StrategyPattern.solution.quack.MuteQuack;
-
 public class ModelDuck extends Duck {
 
     public ModelDuck() {

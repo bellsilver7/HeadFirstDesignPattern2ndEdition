@@ -1,7 +1,5 @@
 package StrategyPattern.solution;
 
-import StrategyPattern.solution.fly.FlyRocketPowered;
-
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
