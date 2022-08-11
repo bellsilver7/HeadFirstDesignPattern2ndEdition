@@ -9,3 +9,7 @@
     - "A에는 B가 있다"
 4. 적당한 클래스에 setWeapon() 함수를 추가하세요.
 ![img.png](img.png)
+
+- Character 클래스는 모든 캐릭터()가 공유하는 추상클래스여야 합니다.
+- WeaponBehavior 는 모든 무기 클래스에서 구현해야 하는 인터페이스입니다.
+- 
