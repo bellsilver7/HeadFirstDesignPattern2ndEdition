@@ -12,10 +12,10 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     }
 
     @Override
-    public void update(float temperature, float humidity, float pressure) {
+    public void update() {
         // 온도와 습도를 저장하고 display()를 호출합니다.
-        this.temperature = temperature;
-        this.humidity = humidity;
+        this.temperature = weatherData.getTemperature();
+        this.humidity = weatherData.getHumidity();
         display();
     }
 
